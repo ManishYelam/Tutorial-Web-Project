@@ -1,0 +1,16 @@
+.Tab-div {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(203, 198, 198);
+    display: flex;
+    align-items: center;
+}
+
+.Tab-div:hover{
+    background-color: rgb(7, 110, 93);
+}
+
+.Tab-title{
+    font-size: 18px;
+    margin-left: 25px;
+}

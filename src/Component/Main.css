@@ -1,0 +1,16 @@
+.Main-container{
+    width: 60vw;
+    background-color: whitesmoke;
+    color: black;
+
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.content-div{
+    width: 80%;
+    background-color:whitesmoke;
+    padding-left: 30px;
+    color: black;
+}

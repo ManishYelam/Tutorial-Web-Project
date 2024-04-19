@@ -1,0 +1,23 @@
+h1{
+    color: blueviolet;
+}
+.ans-div{
+    width: 100%;
+}
+.code-div-container{
+    width: 95%;
+    background-color: gray;
+    padding: 10px;
+    
+}
+.code-div{
+    /* padding: 10px; */
+    background-color: whitesmoke;
+}
+p#get_started{
+    background-color:yellowgreen ;
+}
+p#npm{
+    background-color: black;
+    color: white;
+}
