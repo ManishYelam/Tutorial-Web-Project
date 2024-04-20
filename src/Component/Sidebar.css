@@ -1,4 +1,5 @@
 .sidebar{
+    overflow: auto;
     height: 80vh;
     width: 18vw;
     background-color: whitesmoke;

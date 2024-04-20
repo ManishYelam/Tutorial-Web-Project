@@ -9,6 +9,10 @@ function Sidebar(props) {
             <Tab title="React Upgrade" index="2" handleClick={props.handleClick}></Tab>
             <Tab title="React ES6" index="3" handleClick={props.handleClick}></Tab>
             <Tab title="React Render HTML" index="4" handleClick={props.handleClick}></Tab>
+
+            <Tab title="HTML Day 1 and 2" index="5" handleClick={props.handleClick}></Tab>
+
+            
             
         </div>
     );

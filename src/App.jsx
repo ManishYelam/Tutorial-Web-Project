@@ -5,6 +5,7 @@ import './App.css'
 import { useState } from "react";
 import {titles} from './Data';
 import { contents} from "./Data"; 
+import Ad_section from "./Component/Ad_section";
 
 function App(){
     
@@ -23,7 +24,7 @@ function App(){
             <div className="Sidebar-Main-container">
             <Sidebar handleClick={handleClick} ></Sidebar>
             <Main title={title} content={content}></Main>
-            
+            <Ad_section></Ad_section>
             </div> 
         </div>
     );

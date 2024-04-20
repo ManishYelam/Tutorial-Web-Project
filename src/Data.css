@@ -21,3 +21,8 @@ p#npm{
     background-color: black;
     color: white;
 }
+.history-html{
+    width: 657px;
+    height: 171px;
+    background-image: url(./Images/history-html.jpg);
+}
