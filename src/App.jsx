@@ -20,7 +20,7 @@ function App(){
     return(
         <div>
             <Navbar></Navbar>
-            
+
             <div className="Sidebar-Main-container">
             <Sidebar handleClick={handleClick} ></Sidebar>
             <Main title={title} content={content}></Main>
