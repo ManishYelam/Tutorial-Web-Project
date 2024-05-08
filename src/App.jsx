@@ -6,6 +6,7 @@ import { useState } from "react";
 import {titles} from './Data';
 import { contents} from "./Data"; 
 import Ad_section from "./Component/Ad_section";
+import Tab from "./Component/Tab";
 
 function App(){
     
@@ -16,11 +17,10 @@ function App(){
         setTitle(titles[idx]);
         setContent(contents[idx]);
     }
-   
+
     return(
         <div>
             <Navbar></Navbar>
-
             <div className="Sidebar-Main-container">
             <Sidebar handleClick={handleClick} ></Sidebar>
             <Main title={title} content={content}></Main>
